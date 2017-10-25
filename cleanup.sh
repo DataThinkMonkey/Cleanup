@@ -1,6 +1,6 @@
 #!/bin/bash
 #declare array variable fileTypes
-declare -a fileTypes=("docx" "doc" "odt" "pdf" "jpg" "JPG" "png" "PNG" "html" "rtf" "txt" "jnlp" "pptx" "ppt" "xls" "xlsx" "ods" "csv")
+declare -a fileTypes=("docx" "doc" "odt" "pdf" "jpg" "JPG" "png" "PNG" "html" "rtf" "txt" "jnlp" "pptx" "ppt" "xls" "xlsx" "ods" "csv" "jpeg")
 
 #loop array to remove file from Downloads and tmp dir
 for i in "${fileTypes[@]}"
