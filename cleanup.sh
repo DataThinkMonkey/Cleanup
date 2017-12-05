@@ -6,6 +6,6 @@ declare -a fileTypes=("docx" "doc" "odt" "pdf" "jpg" "JPG" "png" "PNG" "html" "r
 for i in "${fileTypes[@]}"
 do
 	rm ~/Downloads/*."$i" 2> ~/.cleanup.err
-	rm -Rf ~/tmp/*
+	rm -Rf ~/Tmp/*
 done
 echo "Clean up complete."
